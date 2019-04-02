@@ -1,0 +1,4 @@
+#Hung Nguyen CSCE 355 Inverse Homorphism
+Build:
+Run:
+    python3 inversehom.py

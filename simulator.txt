@@ -1,0 +1,5 @@
+#Hung Nguyen CSCE 355
+# Python v. 3.5.2
+Build:
+Run:
+  python3 dfa_simulator.py

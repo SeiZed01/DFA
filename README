@@ -1,0 +1,32 @@
+Hung Nguyen CSCE 355 Project
+
+All tasks were done in PYTHON3 therefore must use python3 as any other version may not work and each separately/independently
+All the test cases I've checked with the interpreted language test has ran successfully.
+
+The following Tasks are completed so far: Simulator, and Boolop(Complement&Intersection), Inverse Homomorphism
+
+Essentially each task is a script of its own where I stored and read DFA's in a nested dictionary
+
+All my tasks will use the following format to store dfas.
+
+Example:
+
+DFA A =
+{
+0: {'a': 1, 'b': 0}
+1: {'a': 0, 'b': 1}
+}
+
+So A has 2 states total with {a,b} as alphabet. So reading this:
+State 0: Reading 'a' goes to State 1, Read 'b' stay in State 0
+State 1: Reading 'a' goes to State 0, Read 'a' stay in State 1
+
+then after that was done, all I did was get input and run through it to see if it ended in accepting state.
+For boolops, I did the same but compared the two DFAs and created another dictionary(3) for it and printed after compare then store.
+
+For Homomorphism, I read in the DFA by creating dict from above and traversing through.
+Going through h(0), h(1), ..., h(n) on all of the states to get the new states in the new outputted table
+
+To run this read the simulator.txt, boolop.txt. and invhom.txt to build.
+
+Note: I ran these tests with the test cases given and the interpreted version.
